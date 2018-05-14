@@ -1,0 +1,31 @@
+{
+  "name": "OnWater",
+  "version": "1.0.0",
+  "description": "onwater.io client",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test",
+    "test:dev": "jest test --watch",
+    "test:ci": "jest test --coverage",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seripap/onwater.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seripap/OnWater/issues"
+  },
+  "homepage": "https://github.com/seripap/OnWater#readme",  
+  "keywords": ["onwater","onwater.io","water","maps"],
+  "author": "Daniel Seripap <daniel@seripap.com>",
+  "license": "MIT",
+  "dependencies": {
+    "es6-promise": "^4.2.4",
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "jest-fetch-mock": "^1.5.0"
+  }
+}
